@@ -9,7 +9,4 @@
 @import url('./components/_header.scss');
 @import url('./components/_footer.scss');
 
-// import dynamic components
-
-// import pages
-@import url('./pages/page_about.scss');
+@import '../sass/components/main.scss';
