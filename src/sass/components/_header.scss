@@ -1,6 +1,7 @@
 .header__content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__logo {
@@ -10,7 +11,7 @@
 }
 
 a {
-    text-decoration: none !important;
+    text-decoration: none;
     color: #000;
     font-family: Inter;
     font-size: 20px;
@@ -37,4 +38,16 @@ ul li {
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.17px;
+}
+
+.instrument {
+    display: flex;
+    align-items: center;
+}
+
+.instrument .header-text {
+    margin-right: 20px;
 }
